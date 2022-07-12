@@ -46,7 +46,6 @@ public class Reservation {
 		return "Room "
 				+ roomNumber
 				+ ", check-in: "
-				+ checkIn
 				+ sdf.format(checkIn)
 				+ ", check-out: "
 				+ sdf.format(checkOut)
